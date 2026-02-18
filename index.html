@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Attrape les étoiles</title>
+  <link rel="stylesheet" href="stylesheets/style.css" />
+</head>
+<body>
+  <div class="hud">
+    <div>Score: <span id="score">0</span></div>
+    <div>Temps: <span id="time">30</span>s</div>
+    <button id="restart">Rejouer</button>
+  </div>
+
+  <div class="game" id="game">
+    <div class="player" id="player"></div>
+    <div class="star" id="star"></div>
+  </div>
+
+  <p class="help">Flèches ou WASD pour bouger. Attrape un max d’étoiles ⭐</p>
+
+  <script src="scripts/game.js"></script>
+</body>
+</html>

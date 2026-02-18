@@ -5,8 +5,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Attrape les étoiles</title>
   <link rel="stylesheet" href="stylesheets/style.css" />
+  <link rel="stylesheet" href="stylesheets/background.css" />
 </head>
 <body>
+<div class="neon-bg" aria-hidden="true">
+  <svg class="neon-svg" viewBox="0 0 1000 700" preserveAspectRatio="none">
+
+    <!-- ===== MANY SMALL TRIANGLES ===== -->
+
+    <!-- CYAN -->
+    <polygon class="tri cyan a1" points="80,90 120,160 40,160" />
+    <polygon class="tri cyan a2" points="260,80 320,150 220,150" />
+    <polygon class="tri cyan a3" points="460,60 520,140 400,140" />
+    <polygon class="tri cyan a4" points="700,80 760,150 640,150" />
+    <polygon class="tri cyan a5" points="920,110 960,180 880,180" />
+
+    <polygon class="tri cyan a6" points="120,260 170,330 70,330" />
+    <polygon class="tri cyan a7" points="360,240 410,320 310,320" />
+    <polygon class="tri cyan a8" points="640,240 690,320 590,320" />
+    <polygon class="tri cyan a9" points="880,260 930,340 830,340" />
+
+    <polygon class="tri cyan a10" points="180,520 230,600 130,600" />
+    <polygon class="tri cyan a11" points="520,520 570,600 470,600" />
+    <polygon class="tri cyan a12" points="820,520 870,600 770,600" />
+
+
+    <!-- GREEN -->
+    <polygon class="tri green b1" points="160,140 210,210 110,210" />
+    <polygon class="tri green b2" points="560,120 610,200 510,200" />
+    <polygon class="tri green b3" points="820,150 880,240 760,240" />
+
+    <polygon class="tri green b4" points="60,420 110,500 10,500" />
+    <polygon class="tri green b5" points="260,400 310,480 210,480" />
+    <polygon class="tri green b6" points="460,390 520,480 400,480" />
+    <polygon class="tri green b7" points="700,400 760,480 640,480" />
+    <polygon class="tri green b8" points="940,420 990,500 890,500" />
+
+    <polygon class="tri green b9" points="320,640 370,690 270,690" />
+    <polygon class="tri green b10" points="680,640 730,690 630,690" />
+
+  </svg>
+</div>
+
+
+
+
   <div class="hud">
     <div>Score: <span id="score">0</span></div>
     <div>Temps: <span id="time">30</span>s</div>
